@@ -29,7 +29,7 @@ class Item extends React.Component {
      });
       return(
         <div className="post-content">
-          {this.state.wait ? '请稍等' : <div dangerouslySetInnerHTML={{__html: marked(this.state.data)}} />}
+          {this.state.wait ? '请稍等.....' : <div dangerouslySetInnerHTML={{__html: marked(this.state.data)}} />}
         </div>
     )
   }
